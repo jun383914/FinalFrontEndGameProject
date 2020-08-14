@@ -1,0 +1,25 @@
+.mainGame{
+    text-align: center;
+    position: relative;
+}
+
+#maintable{
+    width: 15cm;
+    background-color: blue;
+    text-align: center;
+    position: absolute;
+    border:15cm;
+/*trying to move the table to the center of the page*/
+}
+
+#thirdrow{
+    height: 2.5cm;
+}
+
+#secondrow{
+    height:2.5cm;
+}
+
+#firstrow{
+    height:2.5cm
+}
