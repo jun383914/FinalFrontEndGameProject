@@ -1,42 +1,40 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Puzzle Game</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src='./js/index.js'></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class='mainGame'>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>Welcome to Slide Number Puzzle Game!</h1>
-        <br>
-        <div>
-            <table class='maintable'>
-                <tr id='firstrow'>
-                    <td id=firstrowfirstcolomn>1</td>
-                    <td id=firstrowsecondcolomn>2</td>
-                    <td id=firstrowthirdcolomn>3</td>
-                </tr>
-                <tr id='secondrow'>
-                    <td id=secondrowfirstcolomn>4</td>
-                    <td id=secondrowsecondcolomn>8</td>
-                    <td id=secondrowthirdcolomn>5</td>
-                </tr>
-                <tr id='thirdrow'>
-                    <td id=thirdrowfirstcolomn>7</td>
-                    <td id=thirdrowsecondcolomn></td>
-                    <td id=thirdrowthirdcolomn>6</td>
+    <link rel="stylesheet" href="./css/style.css" />
 
-                </tr>
-
-            </table>
-        </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/main.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="mainGame">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Welcome to Slide Number Puzzle Game!</h1>
+      <br />
+      <div class="row1">
+        <div id="1" class="tile1" onclick="clickcell(1)">1</div>
+        <div id="2" class="tile2" onclick="clickcell(2)">2</div>
+        <div id="3" class="tile3" onclick="clickcell(3)">3</div>
+      </div>
+      <div class="row2">
+        <div id="4" class="tile4" onclick="clickcell(4)">4</div>
+        <div id="5" class="tile5" onclick="clickcell(5)">5</div>
+        <div id="6" class="tile6" onclick="clickcell(6)">6</div>
+      </div>
+      <div class="row3">
+        <div id="7" class="tile7" onclick="clickcell(7)">7</div>
+        <div id="8" class="tile8" onclick="clickcell(8)">8</div>
+        <div id="blank" class="tileblank" onclick="clickcell(9)">[]</div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

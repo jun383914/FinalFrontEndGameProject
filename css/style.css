@@ -1,31 +1,44 @@
-.mainGame{
-    text-align: center;
-    position: relative;
+*{
+    margin:0;
 }
 
-table.maintable{
-    width: 15cm;
-    background-color:f9f7d9;
+.maingame{
+    width: 540px;
+    height:540px;
     margin-left:auto;
     margin-right:auto;
-    text-align:center;
     font-family: 'Roboto',sans-serif;
     font-weight: bolder;
     font-size:20;
-    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-#firstrow{
-    background-color:d54062 ;
-    height:2.5cm;
+.row1{
+    display:flex;
+    flex-direction: row;
+    background-color:d54062 ;  
 }
 
-#secondrow{
+.row2{
+    display:flex;
+    flex-direction: row;
     background-color:ffa36c;
-    height:2.5cm;
 }
 
-#thirdrow{
-    background-color: ebdc87;
-    height:2.5cm;
+.row3{
+    display:flex;
+    flex-direction: row;
+    background-color:ebdc87 ;
+
 }
+
+.tile1,.tile2,.tile3,.tile4,.tile5,.tile6,.tile7,.tile8,.tileblank{
+    width:180px;
+    height:180px;
+    border:solid 1px blanchedalmond;
+    margin:0 auto;
+    padding:5px;
+}
+
